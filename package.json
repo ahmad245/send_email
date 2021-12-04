@@ -2,18 +2,15 @@
   "name": "email-sender",
   "version": "1.0.0",
   "description": "Simply email sender created for dev.to article",
-  "author": "Mateusz Iwaniuk",
-  "license": "GPL-2.0-only",
+  "author": "Ahmad",
   "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Iwaniukooo11/email-sender"
-  },
+  "homepage": "https://ahmad245.github.io/send_email",
   "article": "",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "browser-sync": "^2.26.7",
     "emailjs-com": "^2.4.1",
+    "gh-pages": "^3.2.3",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.4.0",
@@ -37,6 +34,6 @@
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   }
 }
